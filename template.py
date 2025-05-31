@@ -37,7 +37,7 @@ list_of_files = [
 
 # Create the project directory if it doesn't exist
 for file_path in list_of_files:
-    filepath = Path(filepath)
+    filepath = Path(file_path)
     filedir, filename = os.path.split(filepath)
 
 
